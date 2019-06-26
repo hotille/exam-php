@@ -114,10 +114,11 @@ if (!empty($_POST)) {
                 move_uploaded_file($_FILES['photo']['tmp_name'], 'uploads/' .  $newName . '.' . $extension_upload);
                 echo "L'envoi a bien été effectué !";
 
-
+                //image 
                 $request = 'UPDATE logements
                             SET photo = "' . $newName . '.' . $extension_upload . '" 
-                            WHERE id = ' . $id;
+                            WHERE id_logement = ' . $id;
+               
 
                 $bdd->query($request);
 
