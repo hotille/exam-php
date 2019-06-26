@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>immobilier</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,9 +16,12 @@
     <div class="container">
         <div class="row mt-3">
             <div class="col-12">
+
+                <h2>Immobilier</h2>
+
                 <ul>
-                    <li><a href="list-produits.php">Liste des produits</a></li>
-                    <li><a href="add-produit.php">Ajout de produits</a></li>
+                    <li><a href="list-logements.php">Liste des logements</a></li>
+                    <li><a href="add-logements.php">Ajouter un logements</a></li>
                 </ul>
             </div>
         </div>
