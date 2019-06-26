@@ -40,6 +40,13 @@ if (!empty($_POST)) {
     if ($_POST['cp'] > 100000) {
         throw new Exception('Le champ cp est incorrect (> 100 000).');
     }
+    if ($_POST['surface'] > 100000) {
+        throw new Exception('Le champ surface est incorrect (> 100 000).');
+    }
+    
+    if ($_POST['surface'] > 100000) {
+        throw new Exception('Le champ surface est incorrect (> 100 000).');
+    }
 
     if (!isset($_POST['prix'])) {
         throw new Exception('Le champ prix est vide.');
